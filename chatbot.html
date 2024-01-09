@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="chatbotLogo">
+        ChatBot Jamie
+    </header>
+
+    <main>
+        <div class="top">
+            <h1>ChatBox</h1>
+        </div>
+
+        <div class="chat">
+            <div class="boxHder">
+                <h3><img src="img/profile.png" alt="profile" width="47" height="47">Jamie</h3>
+            </div>
+
+            <div class="boxChat" id="messages"></div>
+
+            <div class="boxMsage">
+                <div class="inpContnr">
+                    <input type="text" id="message" placeholder="Type a message...">
+                </div>
+                
+                <button onclick="sendInp()"><img src="img/send.png" alt="sendLogo" width="12" height="12">Send</button>
+            </div>
+        </div>    
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Copyrights. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
